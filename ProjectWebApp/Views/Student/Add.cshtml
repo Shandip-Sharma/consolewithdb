@@ -1,0 +1,25 @@
+﻿@model ProjectWebApp.Models.AddStudentViewModel
+
+@{
+}
+<h1>Add Student</h1>
+<form method="post" action="Add">
+    <div class="mb-3">
+        <label for="" class="form-label">First Name</label>
+        <input type="text" class="form-control"asp-for="FirstName" >     
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Last Name</label>
+        <input type="text" class="form-control" asp-for="LastName">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">EnrollmentDate</label>
+        <input type="date" class="form-control" asp-for="EnrollmentDate">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Department</label>
+        <input type="text" class="form-control" asp-for="Department">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

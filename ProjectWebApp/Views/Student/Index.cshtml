@@ -1,0 +1,29 @@
+﻿@model List<ProjectWebApp.Models.Domain.Student>
+@{
+}
+<h1>Students</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>FirstName</th>
+            <th>Lastname</th>
+            <th>EnrollmentDate</th>
+            <th>Department</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.Id</td>
+                <td>@student.FirstName</td>
+                <td>!@student.LastName</td>
+                <td>@student.EnrollmentDate.ToString("mm-dd-yyyy")</td>
+                <td>@student.Department</td>
+                <td><a href="Student/View/@student.Id">View</a></td>
+            </tr>
+        }
+    </tbody>
+
+</table>

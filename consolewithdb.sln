@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcWinApp", "CalcWinApp\CalcWinApp.csproj", "{1BA06ADB-D608-4D56-8466-A15C046F8AD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateAccount", "CreateAccount\CreateAccount.csproj", "{EC8A8806-7F73-450A-A09E-5B2F9EE11AAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandcontolLibrary", "SandcontolLibrary\SandcontolLibrary.csproj", "{4BB6EFCE-C7BF-4481-9963-06EFC9F60DA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sand_webApi", "Sand_webApi\Sand_webApi.csproj", "{7EAB4ABB-599A-4D50-804E-E20F606E46A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectWebApp", "ProjectWebApp\ProjectWebApp.csproj", "{91227650-D8E4-4FAA-B1CC-0E1A0906E08F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoUniversity", "ContosoUniversity\ContosoUniversity.csproj", "{B02B6BAE-AF62-41FE-BC52-AB412FE92318}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BA06ADB-D608-4D56-8466-A15C046F8AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA06ADB-D608-4D56-8466-A15C046F8AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA06ADB-D608-4D56-8466-A15C046F8AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA06ADB-D608-4D56-8466-A15C046F8AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC8A8806-7F73-450A-A09E-5B2F9EE11AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC8A8806-7F73-450A-A09E-5B2F9EE11AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC8A8806-7F73-450A-A09E-5B2F9EE11AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC8A8806-7F73-450A-A09E-5B2F9EE11AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB6EFCE-C7BF-4481-9963-06EFC9F60DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB6EFCE-C7BF-4481-9963-06EFC9F60DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB6EFCE-C7BF-4481-9963-06EFC9F60DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB6EFCE-C7BF-4481-9963-06EFC9F60DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EAB4ABB-599A-4D50-804E-E20F606E46A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EAB4ABB-599A-4D50-804E-E20F606E46A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EAB4ABB-599A-4D50-804E-E20F606E46A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EAB4ABB-599A-4D50-804E-E20F606E46A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91227650-D8E4-4FAA-B1CC-0E1A0906E08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91227650-D8E4-4FAA-B1CC-0E1A0906E08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91227650-D8E4-4FAA-B1CC-0E1A0906E08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91227650-D8E4-4FAA-B1CC-0E1A0906E08F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02B6BAE-AF62-41FE-BC52-AB412FE92318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02B6BAE-AF62-41FE-BC52-AB412FE92318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02B6BAE-AF62-41FE-BC52-AB412FE92318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02B6BAE-AF62-41FE-BC52-AB412FE92318}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A0D937D-76CD-40BD-9E4B-C96E6C38DC30}
+	EndGlobalSection
+EndGlobal
